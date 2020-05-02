@@ -3,7 +3,7 @@
         {
             "name": "Jake Deliverman",
             "id": 2,
-            "branch_id": 4 
+            "branch_id": 4
         },
         {
             "name": "Kate Driva",
@@ -11,69 +11,71 @@
             "branch_id": 3
         }
     ],
-    "deliveries": [
-        {
-            "id": 1,
-            "customer": {
-                "name": "Mary Redman",
-                "address": "#32 Edgehill Terrace, St. Thomas",
-                "number": "242-2434",
-                "location": {
-                    "lat": 13.1542907,
-                    "long": -59.5988094
+    "deliveries": {
+        "deliveries": [
+            {
+                "id": 1,
+                "customer": {
+                    "name": "Mary Redman",
+                    "address": "#32 Edgehill Terrace, St. Thomas",
+                    "number": "242-2434",
+                    "location": {
+                        "lat": 13.1542907,
+                        "long": -59.5988094
+                    }
+                },
+                "order": {
+                    "orderNumber": "3434534535",
+                    "orderedAt": "2020-04-22 15:03:34",
+                    "total": 43.4,
+                    "details": [
+                        "1 - Large Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms",
+                        "1 - Small Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms"
+                    ]
                 }
             },
-            "order": {
-                "orderNumber": "3434534535",
-                "orderedAt": "2020-04-22 15:03:34",
-                "total": 43.4,
-                "details": [
-                    "1 - Large Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms",
-                    "1 - Small Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms"
-                ]
-            }
-        },
-        {
-            "id": 2,
-            "customer": {
-                "name": "Jake Redman",
-                "address": "#32 Cane Garden High Upper Terrace, St. Thomas",
-                "number": "242-2424",
-                "location": {
-                    "lat": 13.150070,
-                    "long": -59.591471
+            {
+                "id": 2,
+                "customer": {
+                    "name": "Jake Redman",
+                    "address": "#32 Cane Garden High Upper Terrace, St. Thomas",
+                    "number": "242-2424",
+                    "location": {
+                        "lat": 13.150070,
+                        "long": -59.591471
+                    }
+                },
+                "order": {
+                    "orderNumber": "3434534535",
+                    "orderedAt": "2020-04-22 16:03:34",
+                    "total": 553.4,
+                    "details": [
+                        "1 - Large Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms",
+                        "1 - Small Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms"
+                    ]
                 }
             },
-            "order": {
-                "orderNumber": "3434534535",
-                "orderedAt": "2020-04-22 16:03:34",
-                "total": 553.4,
-                "details": [
-                    "1 - Large Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms",
-                    "1 - Small Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms"
-                ]
-            }
-        },
-        {
-            "id": 3,
-            "customer": {
-                "name": "Jake Redman",
-                "address": "#32 Cane Garden High Upper Terrace, St. Thomas",
-                "number": "242-2424",
-                "location": {
-                    "lat": 13.150070,
-                    "long": -59.591471
+            {
+                "id": 3,
+                "customer": {
+                    "name": "Jake Redman",
+                    "address": "#32 Cane Garden High Upper Terrace, St. Thomas",
+                    "number": "242-2424",
+                    "location": {
+                        "lat": 13.150070,
+                        "long": -59.591471
+                    }
+                },
+                "order": {
+                    "orderNumber": "3434534535",
+                    "orderedAt": "2020-04-22 16:03:34",
+                    "total": 553.4,
+                    "details": [
+                        "1 - Large Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms",
+                        "1 - Small Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms"
+                    ]
                 }
-            },
-            "order": {
-                "orderNumber": "3434534535",
-                "orderedAt": "2020-04-22 16:03:34",
-                "total": 553.4,
-                "details": [
-                    "1 - Large Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms",
-                    "1 - Small Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms"
-                ]
             }
-        }
-    ]
+        ]
+    }
 }
