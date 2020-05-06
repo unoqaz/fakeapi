@@ -203,5 +203,75 @@
                 }
             }
         ]
+    },
+    "pickups": {
+        "locations" : [
+            {
+                "name": "Warrens",
+                "pickup_time": "2020-05-03 09:14:35",
+                "orders": [
+                    {
+                        "delivery_time": "2020-05-04 09:14:35",
+                        "address": "#32 Cane Garden High Upper Terrace, St. Thomas",
+                        "details": [
+                            "1 - Large Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms",
+                            "1 - Small Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Broad Street",
+                "pickup_time": "2020-05-03 10:14:35",
+                "orders": [
+                    {
+                        "delivery_time": "2020-05-04 09:14:35",
+                        "address": "#32 Cane Garden High Upper Terrace, St. Thomas",
+                        "details": [
+                            "1 - Large Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms",
+                            "1 - Small Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms"
+                        ]
+                    },
+                    {
+                        "delivery_time": "2020-05-04 14:14:35",
+                        "address": "#34 Cane Garden High Upper Terrace, St. Thomas",
+                        "details": [
+                            "1 - Plater - Pineapple, Minced Beef, Ham, Corn, Mushrooms",
+                            "1 - Small Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Rockley",
+                "pickup_time": "2020-05-03 10:14:35",
+                "orders": [
+                    {
+                        "delivery_time": "2020-05-04 09:14:35",
+                        "address": "#32 Cane Garden High Upper Terrace, St. Thomas",
+                        "details": [
+                            "1 - Large Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms",
+                            "1 - Small Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms"
+                        ]
+                    },
+                    {
+                        "delivery_time": "2020-05-04 14:14:35",
+                        "address": "#34 Cane Garden High Upper Terrace, St. Thomas",
+                        "details": [
+                            "1 - Plater - Pineapple, Minced Beef, Ham, Corn, Mushrooms",
+                            "1 - Small Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms"
+                        ]
+                    },
+                    {
+                        "delivery_time": "2020-05-04 14:14:35",
+                        "address": "#34 Cane Garden High Upper Terrace, St. Thomas",
+                        "details": [
+                            "1 - Plater - Pineapple, Minced Beef, Ham, Corn, Mushrooms",
+                            "1 - Small Pizza - Pineapple, Minced Beef, Ham, Corn, Mushrooms"
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 }
